@@ -16,7 +16,7 @@ Welcome to our RealEstate project, your one-stop destination for all your real e
 
 ### 2. Services
 
--Comprehensive overview of the services we offer: buying, selling, and renting properties.
+- Comprehensive overview of the services we offer: buying, selling, and renting properties.
 - Clear and concise descriptions to help users understand our offerings.
 
 ### 3. Properties
