@@ -248,7 +248,7 @@ const Home = () => {
     sqft='1200'
     price='$7,500/mo'
     />
-  </div>
+  </div> 
   <div className='listing-inner-wrapper'>
   <Listcard
     imgsrc='./Images/flat1.jpg'
@@ -290,7 +290,7 @@ const Home = () => {
     sqft='1200'
     price='$7,500/mo'
     />
-  </div>
+  </div> 
   </Carousel>
   </div>
    </section>
@@ -323,14 +323,6 @@ const Home = () => {
     />
    </div>
    </section>
-
-   {/* <section className='trend-wrapper'>
-    <div className='trend-inner-wrapper'>
-      <p>TRENDS</p>
-      <h3>Vermont Farmhouse With Antique Jail Is the<br/> Week's Most Popular Home</h3>
-      <button className='btn-read'>Read More</button>
-    </div>
-   </section> */}
 
 <section className='trend-section'>
   <div className='background-fixed'></div>
