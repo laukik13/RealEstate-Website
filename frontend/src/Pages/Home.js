@@ -16,6 +16,7 @@ import { LuClock3 } from 'react-icons/lu';
 
 
 const Home = () => {
+  
   return (
    <>
    <section className='home-wrapper'>
@@ -323,13 +324,24 @@ const Home = () => {
    </div>
    </section>
 
-   <section className='trend-wrapper'>
+   {/* <section className='trend-wrapper'>
     <div className='trend-inner-wrapper'>
       <p>TRENDS</p>
       <h3>Vermont Farmhouse With Antique Jail Is the<br/> Week's Most Popular Home</h3>
       <button className='btn-read'>Read More</button>
     </div>
-   </section>
+   </section> */}
+
+<section className='trend-section'>
+  <div className='background-fixed'></div>
+  <div className='trend-wrapper'>
+    <div className='trend-inner-wrapper'>
+      <p>TRENDS</p>
+      <h3>Vermont Farmhouse With Antique Jail Is the<br/> Week's Most Popular Home</h3>
+      <button className='btn-read'>Read More</button>
+    </div>
+  </div>
+</section>
 
    <section className='latest-wrapper'>
 <div className='d-flex flex-column justify-content-center align-items-center'>
@@ -468,7 +480,7 @@ const Home = () => {
   </div>
    </section>
 
-   <section className='testimonials-wrapper'>
+  <section className='testimonials-wrapper'>
   <div className='testimonials-inner-wrapper'>
   <div className='d-flex flex-column justify-content-center align-items-center'>
   <h5>Recent Properties for Rent</h5>
@@ -477,25 +489,25 @@ const Home = () => {
  <Carousel>
    <div className='testimonials-detail-wrapper'>
     <Testimonialscard
-    imgsrc='./Images/profile1.jpg'
+    // imgsrc='./Images/profile1.jpg'
     msg='I believe in lifelong learning and Skola is a great place to learn from experts. I have learned a lot and recommend it to all my friends'
     name='Marvin McKinney'
     role='Designer'
     />
     <Testimonialscard
-    imgsrc='./Images/profile2.jpg'
+    // imgsrc='./Images/profile2.jpg'
     msg='I believe in lifelong learning and Skola is a great place to learn from experts. I have learned a lot and recommend it to all my friends'
     name='Theresa Webb'
     role='Host'
     />
     <Testimonialscard
-    imgsrc='./Images/profile3.jpg'
+    // imgsrc='./Images/profile3.jpg'
     msg='I believe in lifelong learning and Skola is a great place to learn from experts. I have learned a lot and recommend it to all my friends'
     name='Robert Fox'
     role='Reporter'
     />
     <Testimonialscard
-    imgsrc='./Images/profile4.jpg'
+    // imgsrc='./Images/profile4.jpg'
     msg='I believe in lifelong learning and Skola is a great place to learn from experts. I have learned a lot and recommend it to all my friends'
     name='Guy Hawkins'
     role='Developer'
@@ -515,7 +527,7 @@ const Home = () => {
    </div>
   </Carousel>
  </div>
-   </section>
+  </section>
 
    <section className='team-wrapper'>
 <div className='d-flex flex-column justify-content-center align-items-center'>

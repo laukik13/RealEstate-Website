@@ -4,28 +4,28 @@ import {FiPhone} from 'react-icons/fi'
 
 const Header = () => {
 
-   const[show,setShow]= useState(true);
+   // const[show,setShow]= useState(true);
 
-   const controlNavbar=()=>{
-      if(window.scrollY > 100)
-      {
-         setShow(false)
-      }  
-      else{
-         setShow(true)
-      }
-      }
+   // const controlNavbar=()=>{
+   //    if(window.scrollY > 100)
+   //    {
+   //       setShow(false)
+   //    }  
+   //    else{
+   //       setShow(true)
+   //    }
+   //    }
 
-      useEffect(()=>{
-         window.addEventListener('scroll',controlNavbar)
-         return()=>{
-         window.removeEventListener('scroll',controlNavbar)
-         }
-      },[])
+   //    useEffect(()=>{
+   //       window.addEventListener('scroll',controlNavbar)
+   //       return()=>{
+   //       window.removeEventListener('scroll',controlNavbar)
+   //       }
+   //    },[])
 
   return (
    <>
-  <header className={`header-wrapper ${show && 'hidden'} px-3`}>
+  <header className={`header-wrapper ${'hidden'} px-3`}>
      <div className='d-flex gap-10 justify-content-center align-items-center'>
      <img src='./Images/logo.png' alt='logo'/>
         <h5>Company Name</h5>
