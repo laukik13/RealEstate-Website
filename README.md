@@ -29,6 +29,12 @@ Welcome to our RealEstate project, your one-stop destination for all your real e
 - Contact form for users to reach out for inquiries or support.
 - Company contact details including phone number, email, and address.
 
+## Technologies Used
+
+- **Frontend:** 
+  - React.js for building interactive and dynamic user interfaces.
+  - Bootstrap 5.
+
 
 ## Screenshots
 
